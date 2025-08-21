@@ -115,7 +115,9 @@
                 </ul>
             </div>
         </nav>
-        {{ block "main" . }}{{ end }}
+        <div class="site-inner">
+            {{ block "main" . }}{{ end }}
+        </div>
         <div class="footer-widgets" id="genesis-footer-widgets">
             <h2 class="genesis-sidebar-title screen-reader-text">Footer</h2>
             <div class="wrap">
