@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <link href="{{ "assets/css/site.css" | absURL }}" rel="stylesheet">
+</head>
+<body>
+  {{ block "main" . }}{{ end }}
+  <script src="{{ "assets/js/site.js" | absURL }}"></script>
+</body>
+</html>

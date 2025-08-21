@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "nl"
+title = "Stabat Mater — Migratie"
+canonifyURLs = true
+[permalinks]
+  posts = "/:year/:month/:slug/"
+  pages = "/:slug/"
